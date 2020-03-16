@@ -20,7 +20,7 @@ h1{
   letter-spacing: -.2px;
   color: white;
   margin: 0;
-
+  text-align: center;
   /*text-transform: uppercase;*/
 }
 
@@ -35,6 +35,11 @@ h2{
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+h3{
+  margin-left: 30px;
 }
 
 .header{
@@ -81,18 +86,23 @@ figure{
 
 .hero{
   height: 300px;
-  background-image: url('../imagen/agras.jpg');
-  background-size: 500px 300px;
-  background-repeat: no-repeat;
-  background-position-x: right;
+  /*background-image: url('../imagen/agras.jpg');*/
+  /*background-size: 500px 300px;*/
+  /*background-repeat: no-repeat;*/
+  /*background-position-x: right;*/
   background-color: #1b2127;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.hero-image{
+  object-fit: cover;
 }
 
 .securit{
   background-color: #fafafa;
-  padding: 20px;
+  /*padding: 20px;*/
 }
 
 .secure{
@@ -105,9 +115,19 @@ figure{
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  width: 270px;
+  height: 300px;
 }
 
+.secure-image{
+  width: 180px;
+}
+
+.secure-imageContainer{
+  display: flex;
+  align-items: center;
+
+}
 .secure-title{
   font-size: 30px;
   margin-top: 0;
@@ -124,11 +144,13 @@ figure{
 
 .cal{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .calibrat{
   background-color: #fafafa;
-  padding: 20px;
+  /*padding: 20px;*/
 }
 
 .calibration-details{
@@ -139,13 +161,18 @@ figure{
   padding: 20px;
   margin: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
+  width: 270px;
+}
 
+.calibra-image{
+  height: 60px;
 }
 
 .steps{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .steps-details{
@@ -158,15 +185,26 @@ figure{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 180px;
+  height: 280px;
+  font-size: 15px;
+}
+
+.steps-image{
+  width: 140px;
+  height: 180px;
+  padding: 20px 0;
+  object-fit: scale-down;
 }
 
 .dosa{
   background-color: #fafafa;
-  padding: 20px;
+  /*padding: 20px;*/
 }
 
 .calculation{
   display: flex;
+  justify-content: center;
 }
 
 .calcu{
@@ -179,6 +217,15 @@ figure{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 260px;
+}
+
+.performan{
+  background-color: #fafafa;
+}
+.performance-cal{
+  display: flex;
+  justify-content: center;
 }
 
 .footer{
@@ -187,4 +234,15 @@ figure{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.container{
+  border: 1px solid red;
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
 }
