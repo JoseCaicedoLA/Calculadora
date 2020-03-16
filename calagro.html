@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Agrocal</title>
+  </head>
+
+  <body>
+    <h1>Agrocal v1.0</h1>
+      <script>
+      var ancho_aspersion = parseInt(prompt("Ancho Efectivo de Aspersion (cm)"));
+      var distancia = parseInt(prompt("Distancia Recorrida (m)"));
+      var consumo = parseInt(prompt("Consumo Asperjado (l)"));
+      var tiempo = parseInt(prompt("Tiempo de Aspersion (min)"));
+      var superficie = parseInt(prompt("Superficie de Aspersion (m2)"));
+      var factor;
+      var dosis_r = 1.5; <!-- La dosis sera vuelta constante al igual que el equipo de aspersion-->
+      var capacidad_asperjadora = 20;
+      var consumo_h20;
+      var cap_asperjada;
+      var dosis_a;
+      factor = superficie / (distancia * (ancho_aspersion / 100));
+      consumo_h20 = factor * consumo;
+      cap_asperjada = consumo_h20 / capacidad_asperjadora;
+      dosis_a = (dosis_r * 1000) / ((cap_asperjada / superficie) * 10000);
+      document.write("Dosis a aplicar: " + dosis_a + "ml/aspersora");
+
+    </script>
+  </body>
+</html>

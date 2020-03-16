@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="calculadora herbicida">
+    <meta name="description" content="calculadora para Dosificacion de Herbicida">
+    <title>Agrocal</title>
+    <link rel="stylesheet" href="estilo/estilos.css"
+    <script src = "Cal_agro.js"></script>
+  </head>
+  <body>
+    <section id="contenedor">
+      <header>
+        <h1>Agrocal v1.0</h1>
+      </header>
+      <section id="forma">
+        <article id="calibracion"></article>
+            Ancho Efectivo de Aspersion (cm)
+            <input type="text" id="ancho_asp" /><br>
+            Distancia Recorrida (m)
+            <input type="text" id="dis_r" /><br>
+            Consumo Asperjado (l)
+            <input type="text" id="con_asp" /><br>
+            Tiempo de Aspersion (min)
+            <input type="text" id="tiem_asp" /><br>
+            <input type="button" value="Calcular" id="boton" />
+        <article id="dosificacion"></article>
+            Capacidad de Asperjadora (l)
+            <input type="text" id="cap_equi" /><br>
+            Dosis recomendada (l/ha)
+            <input type="text" id="dos_rec" /><br>
+            Superficie de Aspersion (m2)
+            <input type="text" id="sup_asp" /><br>
+            <input type="button" value="Guardar" id="boton" />
+      </section>
+      <section id="historial">
+
+      </section>
+      <footer>
+        <p>calculadora de prueba</p>
+      </footer>
+    </section> <!--encapsula la pagina-->
+  </body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Agro</title>
+  <link rel="icon" type="imagen/png" href="imagen/fumigadoralogo.png">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+  <header class="header">
+      <figure class="logo">
+        <img src="imagen/fumigadoralogo.png" alt="Logo app" height="50">
+      </figure>
+      <nav class="menu">
+        <ol>
+          <li>
+            <a href="#home">Inicio</a>
+          </li>
+          <Li>
+            <a href="#security">Equipos</a>
+          </Li>
+          <Li>
+            <a href="#calibration">Calibracion</a>
+          </Li>
+          <Li>
+            <a href="#performance">Rendimiento</a>
+          </Li>
+          <Li>
+            <a href="#">Preferencias</a>
+          </Li>
+        </ol>
+      </nav>
+  </header>
+  <section id="home" class="hero">
+    <div class="hero-details">
+      <h1>
+        Agrocal es una plataforma para la <strong>Calibración</strong> <br> de esquipo de fumigación...
+      </h1>
+    </div>
+    <!--<figure>
+      <img class="hero-imageContainer" src="imagen/agras.jpg" alt="imagen principal del sitio" width="500" height="300">
+    </figure>-->
+  </section>
+  <section id="security" class="securit">
+    <h2>Equipo de seguridad</h2>
+    <div class="equipe">
+      <article class="secure">
+        <h3 class="secure-title">Proteccion Personal</h3>
+        <p class="secure-user">Descripción del uso</p>
+        <figure class="secure-imageContainer">
+          <img class="secure-image" src="imagen/proteccion.png" alt="">
+        </figure>
+      </article>
+      <article>
+      <article class="secure">
+        <h3 class="secure-title">Proteccion Personal</h3>
+        <p class="secure-user">Descripción del uso</p>
+        <figure class="secure-imageContainer">
+          <img class="secure-image" src="imagen/proteccion.png" alt="">
+        </figure>
+      </article>
+    </div>
+<!--    <article>
+
+      <h3>Asperjadora</h3>
+      <p>Descripción del uso</p>
+      <figure>
+        <img src="imagen/fumigadoralogo.png" alt="">
+      </figure>
+    </article>
+    <article>
+      <h3>Otros Instrumentos</h3>
+      <p>Descripción del uso</p>
+      <figure>
+        <img src="imagen/cronometro.png" alt="" width="100">
+        <img src="imagen/nanometro.png" alt="" width="100">
+        <img src="imagen/recipiente.png" alt="" width="100">
+      </figure>
+    </article>-->
+  </section>
+  <section id="calibration" class="calibrat">
+    <h2>Calibración</h2>
+    <article>
+      <h3 class="calibra-title">Recomendaciones</h3>
+      <div class="cal">
+        <div class="calibration-details">
+          <p class="calibra-text">Limpieza de los filtros</p>
+          <figure class="calibra-imageContainer">
+            <img class="calibra-image" src="imagen/limpieza.png" alt="">
+          </figure>
+        </div>
+        <div class="calibration-details">
+          <p class="calibra-text">Presión del equipo</p>
+          <figure class="calibra-imageContainer">
+            <img class="calibra-image" src="imagen/presion.png" alt="">
+          </figure>
+        </div>
+        <div class="calibration-details">
+          <p class="calibra-text">Manejo de boquilla</p>
+          <figure class="calibra-imageContainer">
+            <img class="calibra-image" src="imagen/boquilla.png" alt="">
+          </figure>
+        </div>
+      </div>
+    </article>
+    <article>
+      <h3 class="steps-title">Pasos para calibración</h3>
+      <div class="steps">
+        <div class="steps-details">
+          <p class="steps-text">Ancho efectivo de aspersión</p>
+          <input class="steps-form" type="number">
+          <figure class="steps-imageContainer">
+            <img class="steps-image" src="imagen/anchoasp.png" alt="">
+          </figure>
+        </div>
+        <div class="steps-details">
+          <p class="steps-text">Distancia recorrida</p>
+          <input class="steps-form" type="number">
+          <figure class="steps-imageContainer">
+            <img class="steps-image" src="imagen/distrecor.png" alt="">
+          </figure>
+        </div>
+        <div class="steps-details">
+          <p class="steps-text">Consumo Asperjado</p>
+          <input class="steps-form" type="number">
+          <figure class="steps-imageContainer">
+            <img class="steps-image" src="imagen/consumoasp.png" alt="">
+          </figure>
+        </div>
+        <div class="steps-details">
+          <p class="steps-text">Tiempo de aspersión</p>
+          <input class="steps-form" type="number">
+          <figure class="steps-imageContainer">
+            <img class="steps-image" src="imagen/cronometro.png" alt="">
+          </figure>
+        </div>  
+      </div>
+    </article>
+  </section>  
+  <section id="dosage" class="dosa">
+    <h2>Dosificación</h2>
+    <article class="calculation">
+      <div class="calcu">
+        <p class="calculation-description">Superficie de aspersión</p>
+        <input class="calculation-form" type="number">
+      </div>
+      <div class="calcu">
+        <p class="calculation-description">Factor Calibración</p>
+        <input class="calculation-form" type="number">
+      </div>
+      <div class="calcu">
+        <p class="calculation-description">Capacidad equipo de aspersión</p>
+        <input class="calculation-form" type="number">
+      </div>
+    </article>
+    <!--
+      <article class="calculation">
+        <p>Producto</p>
+        <input type="number">
+        <p>Formulación</p>
+        <input type="number">
+        <p>Dosis recomendada</p>
+        <input type="number">
+      </article>
+      <p>Dosis aplicar</p>
+      <input type="button" value="calcular">
+      -->      
+  </section>
+<!--
+  <section id="performance">
+    <h2>Rendimiento</h2>
+    <article>
+      <p>Tiempo por Superficie</p>
+      <input type="number">
+      <p>Jornada laboral</p>
+      <input type="number">
+    </article>
+    <article>
+      <p>Rendimiento Operario</p>
+      <input type="button" value="calcular">
+    </article>
+  </section>
+-->
+  <footer class="footer" width= "80">
+    <div>
+      <p>Calculadora para la fumigación</p>
+    </div>
+    <div>
+      <p>Diseñado por <\3 Jcaicedo</p>
+    </div>
+  </footer>
+</body>
+</html>

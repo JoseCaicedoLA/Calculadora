@@ -1,0 +1,50 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #ccc;
+}
+#contenedor{
+  background: #FDFCFC;
+  height: 500px;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header, #forma, #historial{
+  background: #fff;
+  height: 100px;
+  width: 690px;
+}
+header{
+  height: 100px;
+  width: 700px;
+  padding: 5px 10px;
+}
+#forma{
+  background: #666;
+  height: 300px;
+}
+#historial{
+  background: #FDFCFC;
+  height: 100px;
+}
+footer{
+  background: #f21;
+  height: 50px;
+  width: 700px
+}
+#forma #calibracion{
+  background: #999;
+  width: 350px;
+  height: 300px;
+  float: right;
+}
+#forma #dosificacion{
+  background: #AE6868;
+  width: 350px;
+  height: 300px;
+  float: left;
+}
