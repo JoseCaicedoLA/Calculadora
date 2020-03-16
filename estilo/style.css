@@ -102,7 +102,7 @@ figure{
 
 .securit{
   background-color: #fafafa;
-  /*padding: 20px;*/
+  padding: 20px 20px 0px 20px;
 }
 
 .secure{
@@ -150,7 +150,7 @@ figure{
 
 .calibrat{
   background-color: #fafafa;
-  /*padding: 20px;*/
+  padding: 10px 20px 10px 20px;
 }
 
 .calibration-details{
@@ -172,7 +172,7 @@ figure{
 
 .steps{
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .steps-details{
@@ -199,7 +199,7 @@ figure{
 
 .dosa{
   background-color: #fafafa;
-  /*padding: 20px;*/
+  padding: 10px 20px 10px 20px;
 }
 
 .calculation{
@@ -220,9 +220,23 @@ figure{
   width: 260px;
 }
 
+.calcul{
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 260px;
+}
 .performan{
   background-color: #fafafa;
+  padding: 10px 20px 20px 20px;
 }
+
 .performance-cal{
   display: flex;
   justify-content: center;
@@ -237,7 +251,7 @@ figure{
 }
 
 .container{
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   width: 1000px;
   margin: 0 auto;
   display: inherit;
