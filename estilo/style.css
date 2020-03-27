@@ -60,10 +60,6 @@ h3{
   padding: 0 10px;
 }
 
-.menu{
-  height: 90px;
-}
-
 .header ol{
   display: flex;
   height: inherit;
@@ -242,17 +238,16 @@ figure{
   justify-content: center;
 }
 
-.footer{
+#footer{
   background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
   color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
+#footer p{
+  margin-top: 8px;
+}
 .container{
-  /*border: 1px solid red;*/
-  width: 1000px;
+  border: 1px solid red;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;

@@ -7,39 +7,45 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-
   <title>Calculadora Agro</title>
   <link rel="icon" type="imagen/png" href="imagen/fumigadoralogo.png">
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <figure class="logo">
-        <img src="imagen/fumigadoralogo.png" alt="Logo app" height="50">
-      </figure>
-      <nav class="menu">
-        <ol>
-          <li>
-            <a href="#home">Inicio</a>
-          </li>
-          <Li>
-            <a href="#security">Equipos</a>
-          </Li>
-          <Li>
-            <a href="#calibration">Calibracion</a>
-          </Li>
-          <Li>
-            <a href="#performance">Rendimiento</a>
-          </Li>
-          <Li>
-            <a href="#">Preferencias</a>
-          </Li>
-        </ol>
+  
+      <!-- Navegator -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="imagen/fumigadoralogo.png" alt="AgroCal logo" height="50">
+          AgroCal
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#security">Equipos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#calibration">Calibración</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#performance">Rendimiento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Preferencias</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-    </div>
-  </header>
+      <!-- /Navegator -->
+
   <section id="home" class="hero">
     <div class="container">
       <h1>
@@ -200,16 +206,22 @@
       </article>
     </div>
   </section>
-  <footer class="footer" width= "80">
+
+    <!-- Footer -->
+  <footer id="footer" class="pb-2 pt-2">
     <div class="container">
-      <div>
-        <p>Calculadora para la fumigación, proyecto CA</p>
-      </div>
-      <div>
-        <p>Diseñado por <\3 Jcaicedo</p>
+      <div class="row text-center">
+        <div class="col-12 col-lg col-sm">
+          <p>Calculadora para la fumigación, proyecto CA</p>
+        </div>
+        <div class="col-12 col-lg col-sm">
+          <p>Diseñado por <\3 Jcaicedo</p>
+        </div>
       </div>
     </div>
   </footer>
+    <!-- /Footer -->
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
