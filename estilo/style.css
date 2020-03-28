@@ -76,24 +76,16 @@ ul{
   list-style: none;
 }
 
-figure{
-  margin: 0;
-}
-
 .hero{
-  height: 300px;
+  /*height: 300px;
   /*background-image: url('../imagen/agras.jpg');*/
   /*background-size: 500px 300px;*/
   /*background-repeat: no-repeat;*/
   /*background-position-x: right;*/
   background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
-  display: flex;
+  /*display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-
-.hero-image{
-  object-fit: cover;
+  justify-content: space-between;*/
 }
 
 .securit{
@@ -248,10 +240,10 @@ figure{
 }
 .container{
   border: 1px solid red;
-  margin: 0 auto;
+  /*margin: 0 auto;
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
   height: inherit;
-  flex-wrap: inherit;
+  flex-wrap: inherit;*/
 }
