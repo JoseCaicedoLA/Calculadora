@@ -76,6 +76,10 @@ ul{
   list-style: none;
 }
 
+#home img{
+  max-width: 100%;
+}
+
 .hero{
   /*height: 300px;
   /*background-image: url('../imagen/agras.jpg');*/
@@ -225,22 +229,22 @@ ul{
   padding: 10px 20px 20px 20px;
 }
 
-.performance-cal{
+/*.performance-cal{
   display: flex;
   justify-content: center;
-}
+}*/
 
 #footer{
   background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
   color: white;
 }
 
-#footer p{
+/*#footer p{
   margin-top: 8px;
-}
-.container{
+}*/
+/*.container{
   border: 1px solid red;
-  /*margin: 0 auto;
+  margin: 0 auto;
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
