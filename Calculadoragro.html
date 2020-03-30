@@ -12,10 +12,10 @@
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="estilo/style.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar">
 
       <!-- INI Navegator -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="imagen/fumigadoralogo.png" width="40" height="40" class="d-inline-block align-top" alt="AgroCal logo">
@@ -25,7 +25,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
         
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="#home">Inicio</a>
@@ -298,7 +298,7 @@
         <div class="col-md">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title text-center">Rendimiento Operario</h5>
+              <h5 class="card-title text-center"><abbr title="Tiempo de ejecución de la aplicación">Rendimiento Operario</abbr></h5>
               <input type="button" value="calcular">
             </div>
           </div>
